@@ -1,35 +1,36 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "ftm",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fabric Test Mod",
+  "description": "A mod I made to learn fabric (and practice art)",
   "authors": [
-    "Me!"
+    "Rdna123"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/ftm/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.Rdna123.ftm.FabricTestMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "ftm.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.16.x",
+    "trinkets": "*"
   },
   "suggests": {
     "another-mod": "*"
